@@ -3,7 +3,6 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 const API_BASE =
   import.meta.env.VITE_BACKEND_URL || "http://localhost:5000/api";
 
-// Async Thunks
 export const createShortUrl = createAsyncThunk(
   "url/createShortUrl",
   async (originalUrl, { rejectWithValue }) => {
