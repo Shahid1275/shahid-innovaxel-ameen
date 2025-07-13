@@ -7,23 +7,23 @@ A MERN stack application that allows:
 
 ### 1 Clone the repository
    ```bash
-- git clone https://github.com/Shahid1275/shahid-innovaxel-ameen.git
+    git clone https://github.com/Shahid1275/shahid-innovaxel-ameen.git
    ```
 
 - ### 2 Navigate into the project directory
--  ```bash
-- cd shahid-innovaxel-ameen
--    ```
+   ```bash
+  cd shahid-innovaxel-ameen
+     ```
 
 - ### 3 List all remote branches to confirm the dev branch exists
--  ```bash
-- git branch -a
--  ```
+   ```bash
+  git branch -a
+   ```
 
 - ### 4 Check out the dev branch locally
--  ```bash
-- git checkout dev
- - ```
+   ```bash
+  git checkout dev
+   ```
   
 - ## Requirements
 
