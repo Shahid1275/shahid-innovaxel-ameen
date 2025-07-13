@@ -278,6 +278,17 @@ const UrlDashboard = () => {
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="flex items-center">
+                          <a
+                            href={`${API_BASE.replace("/api", "")}/r/${
+                              url.shortCode
+                            }`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-indigo-600 hover:text-indigo-500 mr-2"
+                          >
+                            {url.shortCode}
+                          </a>
+
                           <button
                             onClick={() =>
                               copyToClipboard(
