@@ -8,7 +8,7 @@ export const createShortUrl = createAsyncThunk(
   "url/createShortUrl",
   async (originalUrl, { rejectWithValue }) => {
     try {
-      const response = await fetch(`${API_BASE}/shorten/create`, {
+      const response = await fetch(`${API_BASE}/shorten`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
