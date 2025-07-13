@@ -6,6 +6,7 @@ import {
   deleteShortUrl,
   getUrlStats,
   redirectUrl,
+  getAllUrls,
 } from "../controllers/urlController.js";
 
 const router = express.Router();
@@ -16,5 +17,6 @@ router.put("/shorten/:shortCode", updateShortUrl);
 router.delete("/shorten/:shortCode", deleteShortUrl);
 router.get("/shorten/:shortCode/stats", getUrlStats);
 router.get("/r/:shortCode", redirectUrl);
+router.get("/", getAllUrls);
 
 export default router;
