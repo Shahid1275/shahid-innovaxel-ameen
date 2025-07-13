@@ -2,28 +2,6 @@
 
 A MERN stack application that allows:
 - **Users**: Create, update, read, and delete Urls and also see the stats and get all the urls.
-
-- ### Installation
-
-### 1 Clone the repository
-   ```bash
-    git clone https://github.com/Shahid1275/shahid-innovaxel-ameen.git
-   ```
-
-- ### 2 Navigate into the project directory
-   ```bash
-  cd shahid-innovaxel-ameen
-     ```
-
-- ### 3 List all remote branches to confirm the dev branch exists
-   ```bash
-  git branch -a
-   ```
-
-- ### 4 Check out the dev branch locally
-   ```bash
-  git checkout dev
-   ```
   
 - ## Requirements
 
@@ -46,6 +24,28 @@ NOTE: change the scripts in package.json depending upon your os to set NODE envi
 ```
 
 ### Starting the Application
+
+- ### Installation
+
+### 1 Clone the repository
+   ```bash
+    git clone https://github.com/Shahid1275/shahid-innovaxel-ameen.git
+   ```
+
+- ### 2 Navigate into the project directory
+   ```bash
+  cd shahid-innovaxel-ameen
+     ```
+
+- ### 3 List all remote branches to confirm the dev branch exists
+   ```bash
+  git branch -a
+   ```
+
+- ### 4 Check out the dev branch locally
+   ```bash
+  git checkout dev
+   ```
 
 ### Backend
 
