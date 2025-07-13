@@ -2,6 +2,11 @@
 
 A MERN stack application that allows:
 - **Users**: Create, update, read, and delete Urls and also see the stats and get all the urls.
+
+- ### Installation
+
+# Clone the repository
+- git clone https://github.com/Shahid1275/shahid-innovaxel-ameen.git
   
 - ## Requirements
 
