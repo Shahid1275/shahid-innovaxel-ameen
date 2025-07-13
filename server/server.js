@@ -15,6 +15,22 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+//url routes
+app.use("/api", router);
+
+// Root
+app.get("/", (req, res) => res.send("Backend is working good!"));
+
+// Global error handler
+app.use((err, req, res, next) => {
+  console.error("Uncaught error:", err.stack);
+  res.status(500).json({
+    success: false,
+    message: "Internal server error",
+    error: err.message,
+  });
+});
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 export default app;
